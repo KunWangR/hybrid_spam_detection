@@ -17,7 +17,7 @@ Where, *M* is the number of subtrees and particularly, *M=10* in our experiment.
 
 ![formula for feature importance](/imgs/formula2.png)
 
-Where, *N* is the number of nodes of tree and *N-1* is the number of non-leaf nodes. *v_t* represents features related to node $t$. $\hat{i}_{t}^{2}$ is the square of reduced impurity after splitting node *t*.
+Where, *N* is the number of nodes of tree and *N-1* is the number of non-leaf nodes. *v_t* represents features related to node *t*. $\hat{i}_{t}^{2}$ is the square of reduced impurity after splitting node *t*.
 
 In feaimp2.pdf (or in Fig.1), the ranking of click ratio features and distinct count features is higher than time-related features. Feature of **average clicks on project** has the highest score, and **number of distinct IP** plays a vital role in classification. With observation of raw data, most cheating users click heavily on certain ad position or ad project averagely and their clicks are concentrated on a few of positions or projects, which means a higher click centrality. After feature selection, there are 11 time-related features in final classifier, which indicates that time-related features have great contribution to cheater detection.
 
