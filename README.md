@@ -31,7 +31,7 @@ In feaimp4.pdf (or in Fig.2), 31 features are selected for classifier in Module 
 
 \*\*\*\*\*\*\*\*Fig.2 Importances of Features in Module 4\*\*\*\*\*\*\*
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
 formula1: $$n==x$$
 
 formula2: $$n!=x$$
@@ -43,4 +43,6 @@ formula4: [m!=y]
 formula5: \(k==z\)
 
 formula6: \[k!=z\]
+</script>
+
 
