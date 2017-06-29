@@ -13,7 +13,7 @@ For instance, the average impurity loss of feature *j* on 10 subtrees of GBDT is
 
 ![formula for feature importance](/imgs/formula1.png)
 
-Where, *M* is the number of subtrees and particularly, *M=10* in our experiment. $\hat{L}_{j}^{2}(T_m)$ is the impurity loss of feature $j$ on subtree $m$ that can be figured as follow.
+Where, *M* is the number of subtrees and particularly, *M=10* in our experiment. The impurity loss of feature *j* on subtree *m* can be figured as follow.
 
 ![formula for feature importance](/imgs/formula2.png)
 
